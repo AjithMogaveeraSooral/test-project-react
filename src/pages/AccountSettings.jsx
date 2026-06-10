@@ -5,6 +5,8 @@ export default function AccountSettings() {
   const stored = JSON.parse(localStorage.getItem('popx_user') || 'null')
   const user = stored || { name: 'Marry Doe', email: 'Marry@Gmail.Com' }
 
+
+  
   return (
     <div style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
       <div className="account-header">Account Settings</div>
